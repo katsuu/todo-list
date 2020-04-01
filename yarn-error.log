@@ -1,0 +1,37 @@
+Arguments: 
+  /usr/local/Cellar/node/13.8.0/bin/node /usr/local/Cellar/yarn/1.22.0/libexec/bin/yarn.js workspace @todo-list/api add express
+
+PATH: 
+  ./bin:./node_modules/.bin:/Users/katrinaau/.pyenv/bin:/Users/katrinaau/.rbenv/shims:/Users/katrinaau/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  13.8.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/katrinaau/code/katsuu/todo-list/client/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.0/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.0/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.0/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+      "private": true,
+      "workspaces": [
+          "api",
+          "client"
+      ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

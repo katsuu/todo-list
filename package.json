@@ -1,0 +1,13 @@
+{
+    "private": true,
+    "workspaces": [
+        "api",
+        "client"
+    ],
+    "devDependencies": {
+        "wsrun": "^5.2.0"
+    },
+    "scripts": {
+        "start": "wsrun start"
+    }
+}
